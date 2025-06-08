@@ -1,0 +1,9 @@
+terraform.tfstate*
+.terraform/
+*.backup
+.crash
+*.pem
+*.key
+*.log
+*.rdp
+*.bat

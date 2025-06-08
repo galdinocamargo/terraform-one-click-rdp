@@ -1,0 +1,9 @@
+aws_region              = "sa-east-1"
+instance_type           = "t3.large"
+availability_zone       = "sa-east-1a"
+key_name                = "windows_rdp_key"
+ami_owner               = "801119661308"
+ami_name_filter         = "Windows_Server-2022-English-Full-Base-*"
+ami_virtualization_type = "hvm"
+rdp_username            = "Administrator"
+rdp_port                = 3389
