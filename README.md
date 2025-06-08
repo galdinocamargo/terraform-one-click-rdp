@@ -5,7 +5,7 @@ The purpose of **terraform-one-click-rdp** is to create a Windows virtual machin
 
 This solution is especially helpful for individuals like me who live abroad and often need to access essential online services that are geo-blocked for security reasons - such as government portals or document request systems. Rather than relying on VPN workarounds, which may raise privacy or compliance concerns, this setup offers a secure, direct alternative.
 
-By provisioning a Windows EC2 instance in a targeted AWS region (e.g., Brazil) and preparing it for remote access, this project enables quick, location-specific connectivity. The system automatically retrieves and injects login credentials into a ready-to-use RDP configuration and script, allowing seamless one-click access from a Windows machine (tested on Windows 11).
+By provisioning a Windows EC2 instance in a targeted AWS region (e.g., Brazil) and preparing it for remote access, this project enables quick, location-specific connectivity. The system automatically retrieves and injects login credentials into a ready-to-use RDP configuration and script, allowing seamless one-click access from a Windows machine.
 
 ⭐️ If you find this project useful, please consider [giving it a star on GitHub](https://github.com/galdinocamargo/terraform-one-click-rdp/stargazers) - it helps others discover it!
 
@@ -15,7 +15,7 @@ Tutorial: Deploying a Geo-Located Windows VM with Terraform
 Prerequisites
 -------------
 
--   [Terraform](https://www.terraform.io/downloads.html) >= 1.3.0 (tested with v1.8.1)
+-   [Terraform](https://www.terraform.io/downloads.html) >= 1.8.0
 
 -   An AWS account with **programmatic access** enabled (Access Key ID and Secret Access Key)
 
@@ -116,12 +116,12 @@ terraform destroy
 Contributing
 ============
 
-Contributions are welcome and appreciated! Please refer to the [CONTRIBUTING.md](https://galdinocamargo/documentation/CONTRIBUTING.md) guide for details.
+Contributions are welcome and appreciated! Please refer to the [CONTRIBUTING.md](https://github.com/galdinocamargo/terraform-one-click-rdp/blob/main/documentation/CONTRIBUTING.md) guide for details.
 
 License
 =======
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/galdinocamargo/terraform-one-click-rdp/blob/main/LICENSE) file for details.
 
 Disclaimer
 ==========
